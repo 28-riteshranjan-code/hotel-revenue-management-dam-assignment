@@ -1,0 +1,15 @@
+Hotel_Type,Market_Segment,Total_Bookings,Average_ADR
+City Hotel,Direct,5559,120.85
+City Hotel,Online TA,34994,119.78
+City Hotel,Aviation,227,100.17
+City Hotel,Offline TA/TO,7271,87.28
+City Hotel,Groups,2635,84.75
+City Hotel,Corporate,2227,82.69
+City Hotel,Undefined,2,15.0
+City Hotel,Complementary,513,2.75
+Resort Hotel,Online TA,16624,114.78
+Resort Hotel,Direct,6245,112.78
+Resort Hotel,Offline TA/TO,6618,75.71
+Resort Hotel,Groups,2306,63.61
+Resort Hotel,Corporate,1985,51.84
+Resort Hotel,Complementary,189,3.87
