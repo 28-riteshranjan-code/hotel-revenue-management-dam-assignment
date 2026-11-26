@@ -127,3 +127,4 @@ The following SQL queries analyse hotel bookings, room prices and market segment
 | No. | SQL Skill | Business Question | Query File and Line | Output Summary and Business Meaning |
 |---|---|---|---|---|
 | 1 | SELECT, FROM, ORDER BY, LIMIT | Which 10 bookings have the highest ADR? | `sql/hotel_revenue_management_queries.sql`, Lines 6–10 | The highest ADR was 5,400 for booking ID 38,749. The query identifies unusually high room rates that hotel managers may need to investigate. |
+| 2 | WHERE, AND, OR, BETWEEN | Which bookings have ADR between 50 and 200, lead time of at least 30 days, and either two or more adults or children? | `sql/hotel_revenue_management_queries.sql`, Lines 13–19 | The query returned 41,926 qualifying bookings. ADR ranged from 50 to 200. These results help identify bookings meeting the selected room-rate, advance-booking and guest conditions. |
