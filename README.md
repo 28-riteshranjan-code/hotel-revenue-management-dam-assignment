@@ -84,11 +84,46 @@ ADR (Average Daily Rate) is the numerical dependent variable used in this projec
 
 ## 8. Business Findings
 
-[Add your actual findings from Python and SQL analysis.]
+### Regression Model Comparison
 
+| Performance Measure | Model 1: Without Interaction | Model 2: With Interaction |
+|---|---:|---:|
+| R-Squared | 0.5460 | 0.6417 |
+| Adjusted R-Squared | 0.5456 | 0.6414 |
+| AIC | 705193.9934 | 688653.6907 |
+| BIC | 705651.7459 | 689212.1487 |
+| Test RMSE | 32.1253 | 26.9760 |
+| Test MAE | 23.2849 | 18.4372 |
+### Important Numerical Predictors (Model 1)
+
+| Predictor | Coefficient | Direction | Statistical Significance |
+|---|---:|---|---|
+| lead_time | -0.1075 | Negative | Significant |
+| adults | 7.4322 | Positive | Significant |
+| children | 12.8060 | Positive | Significant |
+| stays_in_weekend_nights | -1.0947 | Negative | Significant |
+| stays_in_week_nights | 0.5795 | Positive | Significant |
+| total_of_special_requests | 1.7328 | Positive | Significant |
+| babies | 1.8716 | Positive | Not significant |
 ## 9. Management Recommendations
 
-[Add at least three recommendations based on your actual analytical results.]
+1. Introduce seasonal pricing by hotel type
+- Your finding: The interaction model shows a particularly strong Resort Hotel difference in August (+94.77) and July (+72.04), relative to the January/City Hotel reference combination.
+- What to recommend: Hotels should review their pricing calendars by month and hotel type. Resort managers should pay particular attention to peak-season pricing.
+- What to monitor: Monthly ADR, occupancy and booking pace.
+2. Use booking lead time when setting room prices
+- Your finding: lead_time has a negative coefficient of -0.1075 in Model 1.
+- What to recommend: Hotels could use booking-window-based pricing, with carefully controlled advance-booking offers and rate adjustments closer to arrival when demand supports them.
+- What to monitor: ADR and booking volume across different booking windows.
+3. Review pricing across booking channels and customer segments
+- Your finding: Online TA had the highest booking volume in your SQL results (51,618 bookings; average ADR 118.17). The City Hotel–Direct combination had an average ADR of about 120.85.
+- What to recommend: Hotel managers should compare direct and online travel agency channels, review discounting and consider whether encouraging more direct bookings improves revenue after distribution costs.
+- What to monitor: Booking volume, average ADR and channel costs.
+Step-by-step: enter them in GitHub
+1. In your README editor, go to Section 9.
+3. Add three numbered recommendations using the evidence and actions above.
+4. Write each recommendation in your own words. Include the finding, the action and what the manager should monitor.
+5. Do not claim that the regression proves these factors cause ADR to change. These are relationships observed in your data.
 
 ## 10. Limitations
 
