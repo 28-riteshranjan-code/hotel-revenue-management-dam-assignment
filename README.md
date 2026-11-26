@@ -120,3 +120,10 @@ https://doi.org/10.1016/j.dib.2018.11.126
 Public Kaggle Notebook:
 
 [Hotel Revenue Management – Data Analysis and Regression](https://www.kaggle.com/code/ritesh5500/hotel-revenue-management-data-analysis-and-regre)
+## 15. SQL Query Register
+
+The following SQL queries analyse hotel bookings, room prices and market segments to support the Hotel Revenue Management business case.
+
+| No. | SQL Skill | Business Question | Query File and Line | Output Summary and Business Meaning |
+|---|---|---|---|---|
+| 1 | SELECT, FROM, ORDER BY, LIMIT | Which 10 bookings have the highest ADR? | `sql/hotel_revenue_management_queries.sql`, Lines 6–10 | The highest ADR was 5,400 for booking ID 38,749. The query identifies unusually high room rates that hotel managers may need to investigate. |
