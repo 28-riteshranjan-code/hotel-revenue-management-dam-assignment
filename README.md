@@ -115,3 +115,8 @@ https://www.kaggle.com/datasets/jessemostipak/hotel-booking-demand
 Original Research Paper:
 
 https://doi.org/10.1016/j.dib.2018.11.126
+## 14. Kaggle Notebook
+
+Public Kaggle Notebook:
+
+[Hotel Revenue Management – Data Analysis and Regression](https://www.kaggle.com/code/ritesh5500/hotel-revenue-management-data-analysis-and-regre)
