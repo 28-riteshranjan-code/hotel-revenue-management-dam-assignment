@@ -120,19 +120,22 @@ ADR (Average Daily Rate) is the numerical dependent variable used in this projec
 - What to recommend: Hotel managers should compare direct and online travel agency channels, review discounting and consider whether encouraging more direct bookings improves revenue after distribution costs.
 - What to monitor: Booking volume, average ADR and channel costs.
 Step-by-step: enter them in GitHub
-1. In your README editor, go to Section 9.
-3. Add three numbered recommendations using the evidence and actions above.
-4. Write each recommendation in your own words. Include the finding, the action and what the manager should monitor.
-5. Do not claim that the regression proves these factors cause ADR to change. These are relationships observed in your data.
 
 ## 10. Limitations
 
-- The dataset contains historical booking information.
-- The analysis covers two hotels in Portugal.
-- Some variables contain missing values.
-- Regression results show statistical relationships and do not independently prove causation.
-- The findings may not represent every hotel or current market conditions.
+Historical data: The dataset covers hotels in Portugal from 2015 to 2017, so the findings may not represent today's hotel market.
 
+
+
+Missing business factors: Competitor room prices, hotel operating costs and local events are not included in the regression model.
+
+
+
+No proof of causation: The regression identifies relationships between booking factors and ADR; it does not prove that one factor causes a price change.
+
+
+
+Prediction errors: The better model still has a test RMSE of 26.9760 and MAE of 18.4372, so its predictions are not perfectly accurate.
 ## 11. Repository Structure
 
 - `notebooks/` – Python and SQL notebooks.
